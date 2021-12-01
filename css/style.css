@@ -139,6 +139,7 @@ p{
 .colun-2b a img {
     width: 16px;
     height: 16px;
+    margin-left: 65px;
 }
 .colun-3a {
     margin-top: 30px;
@@ -146,14 +147,7 @@ p{
 .colun-4a {
     margin-top: 40px;
 }
-.colun-4a p {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600px;
-    font-size: 5px;
-    line-height: 10px;
-}
-.colun-5a{
+.colun-5a {
     margin-top: 20px;
 }
 .tel{
