@@ -1,163 +1,168 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&display=swap');
 
-body{
+.body-one{
     width: 375px;
     height: 812px;
-    background:#407AFF;
-    font-family: 'Montserrat Alternates', 'sans-serif';
-    color: #fff;
+    position: relative;
+    background-color: #407AFF;
     
 }
-h1{
-    font-family: 'Montserrat';
-    font-style: bold;
-    font-weight: 800;
-    font-size: 32px;
-   
+
+.pag-one{
+    margin-top:50%;
+    margin-bottom: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    
 }
-.logo-main{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
+.texto-one{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+}
+/*  FIM DA PAGINA ONE */
+
+
+
+/* INICIO PAGINA TWO */
+.body-two{
+    width: 375px;
+    height: 812px;
+    background-color: #407AFF;
+    background-image: url("/img/menina.png" );
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  
+}
+.cab-two{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin:55px 116px 664px 8px;
 }
-img{
-    width: 93px;
-    height: 93px;
-    
-}
-h3{
-    font-family: Montserrat;
+.cab-two h1{
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
-    margin:6px;
+    font-size: 32px;
+    color: #FFFFFF;
 }
-.cab{
-    display: flex;
-    margin: 20px;
-    margin-top: 62px;
-    
-    
+.login{
+    margin-left: 80px;
 }
 .cad-two{
-    margin-top: 100px;
-    margin-left: 20px;
+    position: absolute;
+    width: 269px;
+    height: 20px;
+    left: 20px;
+    top: 274px;
+    color: #FFFFFF;
+   
 }
-.cab img{
-    margin-left: 20px;
+.botao-two{
+    position: absolute;
+    width: 157px;
+    height: 40px;
+    left: 20px;
+    top: 480px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.from-two h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    
 }
 .cpf{
     width: 246px;
     height: 40px;
+    left: 20px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    margin-bottom: 20px;
     background-color: #407AFF;
-    color: #FFFFFF;
 }
-.dn{
+.datas{
     width: 157px;
     height: 40px;
+    left: 20px;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #407AFF;
-    color: #FFFFFF;
 }
-.botao{
-    background: #FFFFFF;
+
+
+/* PAGINA TREE*/
+.botao-tree{
+    position: absolute;
+    width: 157px;
+    height: 40px;
+    right: 40px;
+    top: 680px;
+    border: 1px solid #FFFFFF;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    width: 157px;
+}
+.button-tree{
+    position: absolute;
+    width: 246px;
     height: 40px;
-    margin-left: 20px;
-   
+    left: 20px;
+    top: 300px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #407AFF;
 }
-.form-two{
-    margin-top: 30px;
-}
-.cab a img{
-    width: 16px;
-    height: 16px;
-   
-}
-.seta{
-    display: flex;
-    margin-top:200px;
-   
+.form-tree{
+    position: absolute;
+    width: 269px;
+    height: 20px;
+    left: 20px;
+    top: 274px;
+    color: #FFFFFF;
     
 }
-.seta a img{
-    width: 52px;
-    height: 51px;
-    margin-left: 3px;
-
-}
-p{
-    font-family:'Montserrat';
+.p-tree{
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
-.comecar{
-    font-family:'Montserrat';
+.h2-tree{
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
+    color: #FFFFFF;
+}
+.login-tree{
+    margin-left: 300px;
+}
+.body-tree{
+    width: 375px;
+    height: 812px;
+    background-color: #407AFF;
+    background-image: url("/img/menino.png" );
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 .cab-tree{
     display: flex;
+    flex-direction: column;
+    margin:44px 121px 675px 20px;
 }
 .cab-tree h1{
-    font-family:'Montserrat';
+    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 32px;
-}
-.cab-tree a img{
-    width: 16px;
-    height: 16px;
-    }
-
-/*CSS página INDEX3.HTML*/
-.colun-1a{
-    margin-top: 50px;
-}
-.colun-1a {
-    margin-top: 50px;
-}
-.colun-2b {
-    margin-left: 0px;
-}
-.colun-2b a img {
-    width: 16px;
-    height: 16px;
-    margin-left: 65px;
-}
-.colun-3a {
-    margin-top: 30px;
-}
-.colun-4a {
-    margin-top: 40px;
-}
-.colun-5a {
-    margin-top: 20px;
-}
-.tel{
-    width: 246px;
-    height: 40px;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #407AFF;
     color: #FFFFFF;
 }
-/* FIM CSS INDEX3 */
-
