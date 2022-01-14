@@ -21,7 +21,23 @@
     <input type="text" placeholder="Login" id="login"><br>
     <input type="text" placeholder="Senha" id="senha"><br>
     <input type="submit" value="Enviar" onclick="createUser(login.value, senha.value)">
-    <input type="button" value="Buscar" onclick="buscarUsuarios()">
+    <input type="button" value="Buscar" onclick="buscarUsuarios()"><br>
+    <br>
+
+    <input type="text" placeholder="First Name" id="firstName"><br>
+    <input type="text" placeholder="Last Name" id="lastName"><br>
+    <input type="text" placeholder="Email" id="email"><br>
+    <input type="text" placeholder="Contact Cel" id="contactCel"><br>
+    <input type="text" placeholder="Contact Phone" id="contactPhone"><br>
+    <input type="submit" value="Enviar" 
+    onclick="createPatient(
+        firstName.value, 
+        lastName.value, 
+        email.value, 
+        contactCel.value, 
+        contactPhone.value
+        )">
+    <input type="button" value="Buscar" onclick="buscarPacientes()">
 
    <script src="./scripts/conexao.js"></script>
 </body>
